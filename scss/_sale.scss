@@ -1,0 +1,49 @@
+/*Estilos Sale*/
+.sale__caja{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: center;
+}
+        .tachado{
+            text-decoration: line-through;
+}
+    .sale__img {
+        width: 180px;
+        height: 180px;
+        margin: 10px;
+} 
+@media only screen and (min-width:768px) {
+    .sale__caja{
+        padding: 20px;
+        margin: 20px;
+        gap: 3PX;
+        justify-content:left;
+        align-items: center;
+    }
+    
+        .sale__img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+    } 
+}
+
+@media only screen and (min-width:1024px){
+    .sale__caja{
+        padding: 20px;
+        margin: 30px;
+        gap: 10px;
+        justify-content: left;
+        font-size: 1.5rem;
+    }
+        .sale__img {
+            width: 270px;
+            height: 270px;
+            margin: 10px;
+    } 
+}

@@ -1,0 +1,55 @@
+/*Estilos Tiensa y Sale*/
+.tienda__caja{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+        .tienda__img {
+            width: 180px;
+            height: 180px;
+            transition: all 1s;
+            margin: 5px;
+}
+.btn-primary{
+    background-color:#CAFFBF;
+    border-color:#76c893;
+    color: $gris;
+    font-weight:bold;
+}
+@media only screen and (min-width:768px) {
+    .tienda__caja{
+        padding: 20px;
+        margin: 30px;
+        gap: 3PX;
+    }
+    
+        .tienda__caja img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+    } 
+}
+
+@media only screen and (min-width:1024px){
+    .tienda__caja{
+        padding: 20px;
+        margin: 30px;
+        gap: 10PX;
+        font-size: 1.5rem;
+    }
+            .tienda__caja img {
+                width: 270px;
+                height: 270px;
+                gap: 10px;
+    }
+            .tienda__img:hover{
+                transform: scale(2,2);
+    }
+    .btn-primary{
+        font-weight:bold;
+    }
+}

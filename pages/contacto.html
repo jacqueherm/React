@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contacto, contáctanos, consultas, atención al cliente"> 
+    <meta name="description" content="¿Tenés dudas o consultas?-¿Necesitas ayuda? ">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/06c66a7fe0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../style/estilos.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__div">
+            <a href="../index.html"><img class="logo" src="../images/Logo1.jpg" alt="Logo" /></a>
+            <ul class="header__lista">
+                <li class="listaIcon"> <a href="#"><i class="fas fa-user"></i></a>
+                    <a href="#"> Ingresar</a>
+                </li>
+                <li class="listaIcon"><a href="#"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#"> Mi carrito</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <h1 class="header__h1">Enamorarte Muebles</h1>
+                </li>
+            </ul>
+        </div>
+        <nav class="navbar navbar-expand-lg breadcrumb">
+            <div class="container-fluid">
+                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav nav breadcrumb">
+                        <a class="nav-link aNav breadcrumb-item" href="../index.html">Home</a>
+                        <a class="nav-link aNav breadcrumb-item" href="sobre-nosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link aNav breadcrumb-item" href="tienda.html">Tienda</a>
+                        <a class="nav-link aNav breadcrumb-item" href="sale.html">Sale</a>
+                        <a class="nav-link active aNav breadcrumb-item" aria-current="page" href="contacto.html">Contato</a>
+                        <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+                        <form class="d-flex buscar">
+                            <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search">
+                            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="contacto">
+    <section>
+        <h1 class="contacto__titulo">Contacto</h1>
+    </section>
+    <form class="form">
+        <fieldset>
+            <h2><legend>Datos personales</legend></h2>
+            <div class="form__caja">
+                <label for="nombre">Nombre</label>
+                <input class="inputForm" type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="form__caja">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Ingresa tu apellido" required>
+            </div>
+            <div class="form__caja">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="Ingresa tu E-mail" required>
+            </div>
+            <div class="form__caja">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" placeholder="Ingresa tu teléfono">
+            </div>
+            <div class="form__caja">
+                <h2>¿Cómo llegaste a nosotros?</h2>
+                <select>
+                    <option disabled selected>--Seleccione una opción--</option>
+                    <option>Soy Cliente</option>
+                    <option>Instagram/Facebook/Google</option>
+                    <option>Me lo recomendaron</option>
+                    <option>Otro</option>
+                </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Opciones</legend>
+            <div class="form__caja">
+                <h2>Motivo</h2>
+                <select>
+                    <option disabled selected>--Seleccione una opción--</option>
+                    <option>Presupuesto</option>
+                    <option>Envios</option>
+                    <option>Formas de Pago</option>
+                    <option>Otras consultas</option>
+                </select>
+            </div>
+            <h2>Dejanos tu consulta</h2>
+            <textarea id="form__textarea"></textarea>
+        </fieldset>
+        <div class="boton">
+            <input class="boton2" type="submit" value="Enviar" id="">
+            <input class="boton2" type="reset" value="Limpiar" id="">
+        </div>
+    </div>
+    </form>
+    <footer class="footer">
+        <div class="footer__listas">
+            <h3 class="footer__titulos">Sucursal</h3>
+            <iframe class="mapa"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52540.416894488386!2d-58.59870225247999!3d-34.60982394701158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb8698cab7fa3%3A0xc4d83fe138c75b6f!2sCaseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1624832541110!5m2!1ses-419!2sar"
+                width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <ul>
+            <h3 class="footer__titulos">Asistencia</h3>
+            <ul class="footer__listas">
+                <li>¿Cómo comprar?</li>
+                <li>Envíos</li>
+                <li>Formas de Pago</li>
+            </ul>
+        </ul>
+        <div class="footer__listas">
+            <h3 class="footer__titulos">Encontranos</h3>
+            <ul class="listaRedes">
+                <li><a class="iconosRedes" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="iconosRedes" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
+        <a href="#" target="_blank" class="wsp"><i class="fab fa-whatsapp-square"></i></a>
+    </footer>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
