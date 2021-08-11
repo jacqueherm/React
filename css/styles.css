@@ -40,7 +40,7 @@ img {
 }
 
 .logo {
-  width: 90px;
+  width: 95px;
   height: 65px;
   transition: all 2s;
 }
@@ -185,6 +185,7 @@ h1 {
 
 .footer {
   width: 100%;
+  height: 130px;
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
   background-color: #d8e2dc;
@@ -286,6 +287,9 @@ h3 {
     margin-top: 0px;
     margin-bottom: 5px;
   }
+  .footer {
+    height: 200px;
+  }
   .footer__titulos {
     font-size: 1.5rem;
     margin: 20px;
@@ -377,6 +381,7 @@ h3 {
     font-size: 1rem;
     font-weight: 500;
     padding-bottom: 10px;
+    height: 250px;
   }
   .footer__titulos {
     font-size: 1.8rem;
@@ -709,7 +714,7 @@ h3 {
 .historia__caja {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  height: 300px;
+  height: 500px;
   width: 100%;
   margin: 10px;
   z-index: 5;
@@ -738,6 +743,21 @@ h3 {
   margin: 10px;
 }
 
+.historia__caja img {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex-grow: 1;
+}
+
 @media only screen and (min-width: 768px) {
   .historia__parrafo {
     padding: 20px 150px;
@@ -745,6 +765,9 @@ h3 {
   }
   .historia::after {
     height: 480px;
+  }
+  .wrapper {
+    min-height: 100vh;
   }
 }
 
@@ -760,6 +783,14 @@ h3 {
   }
   .historia::after {
     height: 630px;
+  }
+  .historia__img {
+    height: 400px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .wrapper {
+    min-height: 100vh;
   }
 }
 

@@ -5,7 +5,7 @@
 .historia__caja{
     font-family:'Montserrat', sans-serif;
     font-weight: bold;
-    height: 300px;
+    height: 500px;
     width: 100%;
     margin: 10px;
     z-index: 5;
@@ -32,6 +32,18 @@
         height: 400px;
         margin: 10px;
 }
+.historia__caja img{
+    height: 100px;
+    margin-bottom: 20px;
+}
+.wrapper{
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex-grow: 1;
+}
 
 @media only screen and (min-width:768px){
     .historia__parrafo {
@@ -41,6 +53,9 @@
     .historia::after{
         height: 480px;
     }
+    .wrapper{
+        min-height: 100vh;
+}
 }
 @media only screen and (min-width:1024px){
     .historia__caja{
@@ -55,5 +70,12 @@
         .historia::after {
             height: 630px;
     }    
+    .historia__img{
+        height: 400px;
+        width:80%;
+        margin-left: 10%;
+    }
+    .wrapper{
+        min-height: 100vh;
 }
-
+}
