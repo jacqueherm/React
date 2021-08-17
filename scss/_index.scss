@@ -1,6 +1,7 @@
 /*Estilos Index*/
 .cajaMain{
     padding: 15px;
+    background-image: linear-gradient($colorBody, #ffff);
     }
     .titulosIndex{
         font-family: 'Montserrat', sans-serif;
@@ -11,8 +12,10 @@
         color: $gris;
     }
         .new{
-            background-color: #CAFFBF;
+            background-color: #a1b5d8;
+            /*color: grey;*/
             margin: 10px;
+            padding: 10px;
     }
 
         .cajaNovedades{
@@ -25,6 +28,7 @@
         .cajaNovedades img {
             height: 180px;
             margin: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
         .masVendidos{
             text-align: center;
@@ -38,6 +42,7 @@
                 width: 180px;
                 height: 180px;
                 margin: 10px;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
         .cajaLinks{
             width:70px;
@@ -91,11 +96,13 @@
                     padding: 20px;
                     color:$gris;
                     padding-top: 25px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
                 .cajaPersonaliz img{
                     width: 180px;
                     height: 180px;
                     margin: 10px;
+                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     @media only screen and (min-width:768px) {
         h2{
@@ -103,8 +110,8 @@
             margin: 10px;
             }
         .cajaNovedades img {
-            width: 200px;
-            height: 200px;
+            width: 600px;
+            height: 300px;
             margin: 10px;
         }
         .cajaMasVendidos img {
@@ -147,12 +154,17 @@
                 color: $gris;
             }
                 .new{
-                    background-color: #CAFFBF;
                     margin: 10px;
             }
-                    .imgNov {
-                        height: 300px;  
-                        margin: 10px;
+            .cajaNovedades img {
+                height: 400px;
+                width: 700px;
+                margin: 10px;
+            }
+            .d-block{
+                text-align: center;
+                align-content: center;
+                align-items: center;
             }
                 .masVendidos{
                     text-align: center;
@@ -186,6 +198,7 @@
                     padding: 8px;
                     justify-content: center;
             }
+            
                     .listaIndex__img{
                         height: 25px;
                         width: 25px;
@@ -210,65 +223,3 @@
                             margin: 10px;
             }
     }
-    
-    /*@media only screen and (max-width:320px){
-        .cajaNovedades img {
-            height: 180px;
-            margin: 10px;
-        }
-        .masVendidos div{/*aplicar in con personalizados */
-            /*flex-wrap: wrap;
-}
-        .masVendidos__img {
-            width: 180px;
-            height: 180px;
-            margin: 10px;
-        }
-        .listaIndex {
-            font-weight: 500;
-            font-size: 0.5rem;
-            gap: 8px;
-            margin: 5px;
-            padding: 5px;
-            justify-content: center;
-        }
-        .listaIndex img{
-            height: 10px;
-            width: 10px;
-            margin-right: 5px;
-            margin-left: 20px;
-        }
-        .cajaLinks{
-            width:70px;
-            height: 30px;
-            display: flex;
-            margin-left: 80px;
-        }
-        .linksIndex{
-            font-size: 1rem;
-        }
-        .cajaPersonaliz{
-            text-align: center;
-            margin-left: 35px;
-        }
-        .cajaPersonaliz section{
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-        }
-        .cajaPersonaliz img{
-            width: 180px;
-            height: 180px;
-        }
-        .cajaPersonaliz p{
-            width: 180px;
-            height: 180px;
-            margin: 10px;
-            font-size: 1.5rem;
-            padding: 20px;
-            padding-top: 20px;
-            margin-right: 5px;
-            margin-left: 10px;
-        }
-    }*/
-    
