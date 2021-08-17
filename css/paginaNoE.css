@@ -1,15 +1,26 @@
-/*.pagNo{
-    background-color:$colorBody;
-    color: $gris;
+.pagNo {
+  background-color: #d8e2dc;
+}
 
+.pagNo div {
+  width: 1000px;
+  margin: 30px;
 }
-.pagNo h1{
-    font-size: 4rem;
+
+.pagNo h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #b7b7a4;
 }
-.mensaje{
-    font-size: 3rem;
-    text-align: center;
+
+.pagNo p {
+  text-align: center;
 }
-.pagNo a{
-    text-align: center;
-}*/
+
+.pagNo img {
+  text-align: center;
+}
+
+.mensaje {
+  font-size: 3rem;
+}
