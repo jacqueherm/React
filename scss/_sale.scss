@@ -1,4 +1,12 @@
 /*Estilos Sale*/
+.sale{
+    background-color: $colorBody;
+}
+.sale h1{
+    color: $gris;
+    margin: 0px;
+    padding: 8px;
+}
 .sale__caja{
     padding: 10px;
     margin: 20px;
@@ -8,6 +16,7 @@
     align-items: center;
     font-size: 1.5rem;
     justify-content: center;
+    text-align: center;
 }
         .tachado{
             text-decoration: line-through;
@@ -18,10 +27,13 @@
         margin: 10px;
 } 
 @media only screen and (min-width:768px) {
+    .sale h1{
+        padding: 10px;
+    }
     .sale__caja{
-        padding: 20px;
-        margin: 20px;
-        gap: 3PX;
+        padding: 15px;
+        margin: 15px;
+        gap: 8PX;
         justify-content:left;
         align-items: center;
     }
@@ -34,9 +46,12 @@
 }
 
 @media only screen and (min-width:1024px){
+    .sale h1{
+        padding: 10px;
+    }
     .sale__caja{
         padding: 20px;
-        margin: 30px;
+        margin: 20px;
         gap: 10px;
         justify-content: left;
         font-size: 1.5rem;

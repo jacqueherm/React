@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="muebles,ofertas, sale, descuentos, hot sale"> 
-    <meta name="description" content="Aprovechá Todas las ofertas y Descuentos en Muebles y Juegos infantiles personalizados.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600:700&display=swap"
-        rel="stylesheet">
+    <meta name="keywords" content="muebles,ofertas, sale, descuentos, hot sale">
+    <meta name="description"
+        content="Aprovechá Todas las ofertas y Descuentos en Muebles y Juegos infantiles personalizados.">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700&display=swap"
+            rel="stylesheet">
     <script src="https://kit.fontawesome.com/06c66a7fe0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="../style/estilos.css">
     <title>SALE!</title>
+    <link rel="shortcut icon" href="../images/Logo1.jpg">
 </head>
 
 <body>
     <header class="header">
         <div class="header__div">
             <a href="../index.html"><img class="logo" src="../images/Logo1.jpg" alt="Logo" /></a>
+            <div>
+                <h1 class="header__h1">Enamorarte Muebles</h1>
+            </div>
             <ul class="header__lista">
                 <li class="listaIcon"> <a href="#"><i class="fas fa-user"></i></a>
                     <a href="#"> Ingresar</a>
@@ -31,13 +36,8 @@
                     <a href="#"> Mi carrito</a>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <h1 class="header__h1">Enamorarte Muebles</h1>
-                </li>
-            </ul>
         </div>
-        <nav class="navbar navbar-expand-lg --bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <nav class="navbar navbar-expand-lg breadcrumb">
             <div class="container-fluid">
                 <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
@@ -47,8 +47,8 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav nav breadcrumb">
                         <a class="nav-link aNav breadcrumb-item" href="../index.html">Home</a>
-                        <a class="nav-link aNav breadcrumb-item" href="sobre-nosotros.html">Sobre Nosotros</a>
-                        <a class="nav-link aNav breadcrumb-item" aria-current="page" href="tienda.html">Tienda</a>
+                        <a class="nav-link aNav breadcrumb-item" aria-current="page" href="sobre-nosotros.html">Sobre Nosotros</a>
+                        <a class="nav-link aNav breadcrumb-item" href="tienda.html">Tienda</a>
                         <a class="nav-link active aNav breadcrumb-item" href="sale.html">Sale</a>
                         <a class="nav-link aNav breadcrumb-item" href="contacto.html">Contacto</a>
                         <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
@@ -62,24 +62,25 @@
             </div>
         </nav>
     </header>
+    <div class="sale">
     <h1 class="animate__animated animate__bounce">SALE!</h1>
     <section class="sale__caja">
         <div class="card">
             <img src="../images/baulp.jpg" class="card-img-top sale__img" alt="baulT">
             <div class="card-body">
                 <h2 class="card-title">Baúl Toto</h5>
-                <p class="card-text">$2000</p>
-                <p class="card-text tachado">$3000</p>
-                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    <p class="card-text">$2000</p>
+                    <p class="card-text tachado">$3000</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
         </div>
         <div class="card">
             <img src="../images/baul_nordico-min.jpg" class="card-img-top sale__img" alt="nordico">
             <div class="card-body">
                 <h2 class="card-title">Baul Nordico</h5>
-                <p class="card-text">$2000</p>
-                <p class="card-text tachado">$3000</p>
-                <a href="#" class="btn btn-primary">Agregar al carrito</a>
+                    <p class="card-text">$2000</p>
+                    <p class="card-text tachado">$3000</p>
+                    <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
         </div>
         <div class="card">
@@ -109,6 +110,7 @@
                 <a href="#" class="btn btn-primary">Agregar al carrito</a>
             </div>
         </div>
+    </div>
     </section>
     <footer class="footer">
         <div class="footer__listas">
@@ -128,11 +130,12 @@
         <div class="footer__listas">
             <h3 class="footer__titulos">Encontranos</h3>
             <ul class="listaRedes">
-                <li><a class="iconosRedes" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="iconosRedes pface" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a class="iconosRedes" href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
-        <a href="#" target="_blank" class="wsp animate__animated animate__pulse my-element"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" target="_blank" class="wsp animate__animated animate__pulse my-element"><i
+                class="fab fa-whatsapp"></i></a>
     </footer>
     <script src="../js/bootstrap.min.js"></script>
 </body>

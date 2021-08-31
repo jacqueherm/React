@@ -16,24 +16,20 @@
     <!--Iconos-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--animaciones-->
-    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
-        integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="style/estilos.css" />
     <title>Enamorarte Muebles - Muebles y Juegos Personalizados</title>
+    <link rel="shortcut icon" href="./images/Logo1.jpg">
 </head>
 
 <body>
     <header class="header">
         <div class="header__div">
             <a href="./index.html"><img class="logo" src="./images/Logo1.jpg" alt="Logo" /></a>
+            <div>
+                <h1 class="header__h1">Enamorarte Muebles</h1>
+            </div>
             <ul class="header__lista">
                 <li class="listaIcon"> <a href="#"><i class="fas fa-user"></i></a>
                     <a href="#"> Ingresar</a>
@@ -42,36 +38,32 @@
                     <a href="#"> Mi carrito</a>
                 </li>
             </ul>
-            <ul>
-                <li>
-                    <h1 class="header__h1">Enamorarte Muebles</h1>
-                </li>
-            </ul>
         </div>
 
-        <nav class="navbar navbar-expand-lg --bs-breadcrumb-divider;" aria-label="breadcrumb">
-            <div class="container-fluid">
-                <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav nav breadcrumb">
-                        <a class="nav-link active aNav breadcrumb-item" aria-current="page" href="./index.html">Home</a>
-                        <a class="nav-link aNav breadcrumb-item" href="./pages/sobre-nosotros.html">Sobre Nosotros</a>
-                        <a class="nav-link aNav breadcrumb-item" href="./pages/tienda.html">Tienda</a>
-                        <a class="nav-link aNav breadcrumb-item" href="./pages/sale.html">Sale</a>
-                        <a class="nav-link aNav breadcrumb-item" href="./pages/contacto.html">Contacto</a>
-                        <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
-                        </ul>
-                        <form class="d-flex buscar">
-                            <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?"
-                                aria-label="Search">
-                            <button class="btn" type="submit"><i class="fas fa-search"></i></button>
-                        </form>
-                    </div>
+
+        <nav class="navbar navbar-expand-lg breadcrumb">
+            <div class="container-fluid navC">
+            <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav nav breadcrumb">
+                    <a class="nav-link active aNav breadcrumb-item" href="index.html">Home</a>
+                    <a class="nav-link aNav breadcrumb-item" aria-current="page" href="pages/sobre-nosotros.html">Sobre
+                        Nosotros</a>
+                    <a class="nav-link aNav breadcrumb-item" href="pages/tienda.html">Tienda</a>
+                    <a class="nav-link aNav breadcrumb-item" href="pages/sale.html">Sale</a>
+                    <a class="nav-link aNav breadcrumb-item" href="pages/contacto.html">Contacto</a>
+                    <!--<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+                    <form class="d-flex buscar">
+                        <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?"
+                            aria-label="Search">
+                        <button class="btn" type="submit"><i class="fas fa-search"></i></button>
+                    </form>
                 </div>
+            </div>
             </div>
         </nav>
     </header>
@@ -134,7 +126,6 @@
             <img src="./images/security.svg" class="listaIndex__img" alt="seguridad">
             <li>Comprá con seguridad</li>
         </ul>
-        </section>
         <section class="masVendidos">
             <h2 class="titulosIndex">Mas Vendidos</h2>
             <div>
@@ -142,7 +133,7 @@
                 <img src="./images/cuadritos.jpg" class="masVendidos__img" alt="cuadritos">
                 <img src="./images/escalon2.jpg" class="masVendidos__img" alt="escalon">
             </div>
-            <section>
+            <section class="cajaLinks">
                 <a class="linksIndex linkMasVendidos" href="pages/tienda.html">Ver Todo</a>
             </section>
         </section>
@@ -178,18 +169,17 @@
         <div class="footer__listas">
             <h3 class="footer__titulos">Encontranos</h3>
             <ul class="listaRedes">
-                <li><a class="iconosRedes" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a class="iconosRedes pface" href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a class="iconosRedes" href="#"><i class="fab fa-instagram"></i></a></li>
             </ul>
         </div>
         <a href="#" class="wsp animate__animated animate__pulse my-element">
             <i class="fab fa-whatsapp"></i>
         </a>
-        <a href="#"class="wsp animate__animated animate__pulse my-element"><i class="fab fa-whatsapp"></i></a>
+        <a href="#" class="wsp animate__animated animate__pulse my-element"><i class="fab fa-whatsapp"></i></a>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
