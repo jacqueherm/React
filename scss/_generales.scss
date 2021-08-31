@@ -22,12 +22,11 @@ img{
     max-width: 100%;
 }
     .header{
-            @if $headerTheme== color1 {
+            /*@if $headerTheme== color1 {
                 background-color: $colorHeader;
             }@else{
                 background-color: black;
-            }
-                
+            }*/
             height: 128px;
             position: sticky;
             top: 0px;
@@ -35,6 +34,7 @@ img{
             flex-direction: column;
             padding: 10px;
             z-index: 2000;
+            background-color:$colorBody;
 }
         .header__div{
                 display: flex;
@@ -48,6 +48,8 @@ img{
                     width:58px; 
                     height:58px;
                     transition:all 2s;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
 }
             .header__lista {
                     color: $gris;       
@@ -76,6 +78,7 @@ img{
             .header__h1{
                         margin-bottom:0px;
                         text-align: center;
+                        color: $gris;
 }
             h1{
                         color:$colorBody;
@@ -328,6 +331,7 @@ img{
     .header{
         height: 205px;
         padding: 15px;
+        background-color: $colorHeader;
 }
         .logo{
                 width:110px; 
